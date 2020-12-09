@@ -1,0 +1,6 @@
+<resources>
+    <string name="fund_transfer">Fund transfer</string>
+    <string name="hello_fund_transfer">Welcome to fund transfer module</string>
+    <string name="add_payee">Add payee</string>
+    <string name="fund_provider">provided by: Fund Transfer Service</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fund_transfer_nav_graph"
+    app:startDestination="@id/FundTransferFragment">
+
+    <fragment
+        android:id="@+id/FundTransferFragment"
+        android:name="com.poc.fundtransfer.FundTransferFragment"
+        android:label="@string/fund_transfer"
+        tools:layout="@layout/fund_transfer_fragment">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/AddPayeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddPayeeFragment"
+        android:name="com.poc.fundtransfer.AddPayeeFragment"
+        android:label="@string/add_payee"
+        tools:layout="@layout/add_payee_fragment">
+    </fragment>
+</navigation>
