@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
+import com.poc.core.MFEViewProvider
 
-class FundTransferProvider : MFViewProvider{
+class FundTransferProvider : MFEViewProvider{
     override fun inflate(context: Context, parent: ViewGroup?, navigationId: Int): View {
         return LayoutInflater.from(context)
             .inflate(R.layout.view_dashboard, parent, false).apply {
